@@ -4,7 +4,6 @@ export const metadata = {
     "drone communication platform that connects all drones to each other in a swarm as well as connects them to a control system",
 };
 
-import About from "@/components/About";
 import Features from "@/components/features";
 import Hero from "@/components/hero";
 import Newsletter from "@/components/newsletter";
@@ -15,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      {/* <About /> */}
       <Features />
       <Zigzag />
       <Testimonials />

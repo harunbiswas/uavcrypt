@@ -5,7 +5,7 @@ export default function About() {
         <div className=" mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="h2 mb-4">About Us</h2>
-            <p className="text-xl text-gray-400 text-justify">
+            <p className="text-xl text-gray-400 ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
               illo consectetur soluta minus aut in, tenetur deserunt ipsa dolor,
               assumenda aliquid aliquam? A, debitis id nesciunt fugiat expedita

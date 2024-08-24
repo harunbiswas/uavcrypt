@@ -7,7 +7,7 @@ export default function Menu() {
   const items = [
     { link: "#home", title: "Home" },
     { link: "#about", title: "About" },
-    { link: "#service", title: "Services" },
+    // { link: "#service", title: "Services" },
     { link: "#portfolio", title: "Portfolio" },
     { link: "#testimonials", title: "Testimonials" },
     { link: "#contact", title: "Contact" },
