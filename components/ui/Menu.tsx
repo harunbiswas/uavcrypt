@@ -13,10 +13,10 @@ export default function Menu() {
     { link: "#contact", title: "Contact" },
   ];
 
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState<string>("");
 
   useEffect(() => {
-    const handleScroll = (entries) => {
+    const handleScroll = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setActive(`#${entry.target.id}`);
@@ -29,7 +29,7 @@ export default function Menu() {
     });
 
     items.forEach((item) => {
-      const section = document.querySelector(item.link);
+      const section = document.querySelector(item.link) as HTMLElement;
       if (section) {
         observer.observe(section);
       }
@@ -37,7 +37,7 @@ export default function Menu() {
 
     return () => {
       items.forEach((item) => {
-        const section = document.querySelector(item.link);
+        const section = document.querySelector(item.link) as HTMLElement;
         if (section) {
           observer.unobserve(section);
         }
