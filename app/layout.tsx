@@ -18,7 +18,7 @@ const architects_daughter = Architects_Daughter({
 });
 
 export const metadata = {
-  title: "UAVCrypt ",
+  title: "UAVSync ",
   description:
     "drone communication platform that connects all drones to each other in a swarm as well as connects them to a control system",
 };
