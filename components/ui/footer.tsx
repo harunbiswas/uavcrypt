@@ -17,15 +17,17 @@ export default function Footer() {
                     className=" h-full w-28"
                     width={300}
                     height={100}
-                    src="/images/UAV_Sync-removebg-preview.webp"
+                    src="/images/UAV Sync White.png"
                     alt="uav sync"
                   />
                 </Link>
               </div>
               <div className="text-gray-400">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups.
+                We are at the forefront of UAV communication technology,
+                developing secure, decentralized solutions that enhance the
+                reliability and scalability of drone networks. Our proprietary
+                technology ensures that your UAV fleets can operate seamlessly,
+                securely, and autonomously in any environment.
               </div>
             </div>
 
@@ -243,7 +245,7 @@ export default function Footer() {
 
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
-              &copy; Cruip.com. All rights reserved.
+              &copy; Harun. All rights reserved.
             </div>
           </div>
         </div>

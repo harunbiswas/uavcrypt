@@ -16,7 +16,7 @@ export default function Header() {
                 className=" h-full w-28"
                 width={300}
                 height={100}
-                src="/images/UAV_Sync-removebg-preview.webp"
+                src="/images/UAV Sync White.png"
                 alt="uav sync"
               />
             </Link>
