@@ -9,7 +9,7 @@ export default function Menu() {
     { link: "#about", title: "About" },
     // { link: "#service", title: "Services" },
     { link: "#portfolio", title: "Portfolio" },
-    { link: "#testimonials", title: "Testimonials" },
+    // { link: "#testimonials", title: "Testimonials" },
     { link: "#contact", title: "Contact" },
   ];
 
