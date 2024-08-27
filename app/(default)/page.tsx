@@ -7,7 +7,6 @@ export const metadata = {
 import Features from "@/components/features";
 import Hero from "@/components/hero";
 import Newsletter from "@/components/newsletter";
-import Testimonials from "@/components/testimonials";
 import Zigzag from "@/components/zigzag";
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
       {/* <About /> */}
       <Features />
       <Zigzag />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Newsletter />
     </>
   );
