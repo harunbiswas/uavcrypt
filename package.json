@@ -1,7 +1,8 @@
 {
-  "name": "Uavcypt",
+  "name": "UavSync",
   "version": "1.0.0",
   "private": true,
+  "stack": "heroku-24",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

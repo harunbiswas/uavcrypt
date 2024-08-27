@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import FeatImage01 from "@/public/images/AC.png";
 import FeatImage02 from "@/public/images/cyber-security-3400657_1280.jpg";
 import FeatImage03 from "@/public/images/frequency-wave-7776034_1280.jpg";
+import FeatImage01 from "@/public/images/image (1).png";
 
 export default function Zigzag() {
   return (
